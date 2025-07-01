@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Tiệm Nhà Táo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍏 Tiệm Nhà Táo</h1>
+        <nav>
+            <ul>
+                <li onclick="showSection('matcha')">Matcha</li>
+                <li onclick="showSection('caphe')">Cà Phê</li>
+                <li onclick="showSection('tra')">Trà</li>
+                <li onclick="showSection('topping')">Topping</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="matcha" class="content-section active">
+            <h2>🍵 Matcha Nhật</h2>
+            <ul>
+                <li>Matcha Latte M28k / L35k</li>
+                <li>Matcha Kem Sữa M28k / L35k</li>
+                <li>Matcha Sữa Tươi M28k / L35k</li>
+                <li>Matcha Macchiato M28k / L36k</li>
+            </ul>
+        </section>
+
+        <section id="caphe" class="content-section">
+            <h2>☕ Cà Phê Nguyên Chất</h2>
+            <ul>
+                <li>Phê sữa S18k / M22k</li>
+                <li>Phê đen S15k / M20k</li>
+                <li>Bạc sỉu M25k</li>
+                <li>Bạc sỉu kem sữa M28k</li>
+                <li>Phê choco M22k / L28k</li>
+                <li>Cacao muối M25k / L30k</li>
+                <li>Cacao dừa M22k / L25k</li>
+            </ul>
+        </section>
+
+        <section id="tra" class="content-section">
+            <h2>🍹 Trà Trái Cây</h2>
+            <ul>
+                <li>Trà đào trân châu củ năng L22k</li>
+                <li>Ổi hồng dâu bưởi M22k / L28k</li>
+                <li>Trà vải - Trà vải Việt quất M30k</li>
+                <li>Chanh đào - Chanh xoài 25k</li>
+            </ul>
+        </section>
+
+        <section id="topping" class="content-section">
+            <h2>🍮 Topping</h2>
+            <ul>
+                <li>Trân châu trắng</li>
+                <li>Trân châu đen</li>
+                <li>Thạch củ năng</li>
+                <li>Thạch đào</li>
+                <li>Thạch vải</li>
+                <li>Thạch matcha</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
